@@ -1,46 +1,46 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
   return `
-      <h1 align="center">${answers.projectTitle} 👋</h1>
+<h1 align="center">${answers.projectTitle} 👋</h1>
 
-      ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
 
-      ## Description
-      🔍 ${answers.description}
+## Description
+🔍 ${answers.description}
 
-      ## Table of Contents
-      - [Description](#description)
-      - [Installation](#installation)
-      - [Usage](#usage)
-      - [License](#license)
-      - [Contributing](#contributing)
-      - [Tests](#tests)
-      - [Questions](#questions)
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-      ## Installation
-      💾 ${answers.installation}
+## Installation
+💾 ${answers.installation}
 
-      ## Usage
-      💻 ${answers.usage}
+## Usage
+💻 ${answers.usage}
 
-      ## License
-      ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
-      <br />
-      This application is covered by the ${answers.license} license. 
+## License
+![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
+<br />
+This application is covered by the ${answers.license} license. 
 
-      ## Contributing
-      👪 ${answers.contributing}
+## Contributing
+👪 ${answers.contributing}
 
-      ## Tests
-      ✏️ ${answers.tests}
+## Tests
+✏️ ${answers.tests}
 
-      ## Questions
-      ✋ ${answers.questions}<br />
-      <br />
-      :octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
-      <br />
-      ✉️ Email me with any questions: ${answers.email}<br /><br />
-  `;
+## Questions
+✋ ${answers.questions}<br />
+<br />
+:octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
+<br />
+✉️ Email me with any questions: ${answers.email}<br /><br />
+`;
 }
 
 module.exports = generateMarkdown;
