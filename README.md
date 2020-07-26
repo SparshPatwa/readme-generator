@@ -11,7 +11,7 @@ Javascript app that generates a README.md based on series of user inputs
 `node index.js`
 
 ## **README generated**
-[Sample README generated](./out/README.md)
+[Sample README generated](https://github.com/SparshPatwa/readme-generator/tree/master/output)
 
 ## **Video Walkthrough**
 [Video Clip Link](./demo/readme-generator-demo.mov)
