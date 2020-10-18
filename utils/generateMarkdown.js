@@ -12,9 +12,10 @@ function generateMarkdown(answers) {
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Deployment](#deployment)
+- [Demonstration](#demonstration)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
@@ -22,6 +23,12 @@ function generateMarkdown(answers) {
 
 ## Usage
 💻 ${answers.usage}
+
+## Deployment
+🛳 [Application Link](${answers.deployment})
+
+## Demonstration  
+🎥 [Video Walkthrough](${answers.videodemo})
 
 ## License
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
@@ -31,15 +38,10 @@ This application is covered by the ${answers.license} license.
 ## Contributing
 👪 ${answers.contributing}
 
-## Tests
-✏️ ${answers.tests}
-
 ## Questions
-✋ ${answers.questions}<br />
-<br />
-:octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
-<br />
-✉️ Email me with any questions: ${answers.email}<br /><br />
+✋ Feel free to reach out with question or comments  
+:octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})  
+✉️ Email me with any questions: ${answers.email}
 `;
 }
 

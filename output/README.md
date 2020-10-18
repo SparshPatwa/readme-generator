@@ -1,25 +1,32 @@
 
-<h1 align="center">README.md generator video walktrhough 👋</h1>
+<h1 align="center">Budget Tracker 👋</h1>
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
 ## Description
-🔍 Provide a video demo of the readme generator
+🔍 PWA and Offline functionality support for UC Berkeley Budget Tracker 
 
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Deployment](#deployment)
+- [Demonstration](#demonstration)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
-💾 npm install inquirer
+💾 npm install
 
 ## Usage
-💻 To show user how to run the readme generator
+💻 npm start
+
+## Deployment
+🛳 [Application Link](undefined)
+
+## Demonstration  
+🎥 [Video Walkthrough](./public/assets/video-demo.mov)
 
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
@@ -27,14 +34,9 @@
 This application is covered by the MIT license. 
 
 ## Contributing
-👪 Sparsh
-
-## Tests
-✏️ None
+👪 Sparsh Patwa
 
 ## Questions
-✋ Sparsh Patwa<br />
-<br />
-:octocat: Find me on GitHub: [sparshpatwa](https://github.com/sparshpatwa)<br />
-<br />
-✉️ Email me with any questions: patwa.sparsh@gmail.com<br /><br />
+✋ Feel free to reach out with question or comments  
+:octocat: Find me on GitHub: [SparshPatwa](https://github.com/SparshPatwa)  
+✉️ Email me with any questions: patwa.sparsh@gmail.com

@@ -25,7 +25,7 @@ function userCLI(){
         {
             type: "input",
             name: "usage",
-            message: "Enter PROJECT USAGE > "
+            message: "Enter PROJECT RUN COMMAND > "
         },
         {
             type: "list",
@@ -48,13 +48,13 @@ function userCLI(){
         },
         {
             type: "input",
-            name: "tests",
-            message: "Enter inluded TESTS > "
+            name: "deployment",
+            message: "Enter APP DEPLOYMENT URL > "
         },
         {
             type: "input",
-            name: "questions",
-            message: "Enter PROJECT CONTACT information > "
+            name: "videodemo",
+            message: "Enter PATH/URL to VIDEO DEMO  > "
         },
         {
             type: "input",
